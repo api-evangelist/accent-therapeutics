@@ -1,8 +1,23 @@
 aid: accent-therapeutics
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/accent-therapeutics.png
 name: Accent Therapeutics
-description: 'Accent Therapeutics is a company surfaced as a portfolio company of gv and added to the
-  API Evangelist network as a stub for enrichment. Sector: life-sciences. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: 'Accent Therapeutics is a clinical-stage biopharmaceutical company pioneering a new class
+  of small-molecule precision cancer therapies that target critical intracellular dependencies spanning
+  multiple types of cancer. Its pipeline is led by ATX-295, a novel KIF18A inhibitor in clinical
+  development, with data presented at AACR and ASCO. Backed by GV, Accent focuses on precision oncology
+  drug discovery and development. The company does not currently publish a public developer API; this
+  profile captures its corporate and web identity in the API Evangelist network.'
 url: https://raw.githubusercontent.com/api-evangelist/accent-therapeutics/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -16,6 +31,11 @@ modified: '2026-07-17'
 tags:
 - Company
 - Life Sciences
+- Biotechnology
+- Pharmaceuticals
+- Oncology
+- Precision Medicine
+- Drug Discovery
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +43,18 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/accent-therapeutics-domain-security.yml
 - type: Website
-  url: http://accenttx.com
+  url: https://accenttx.com
+- type: Blog
+  url: https://accenttx.com/news-events/
+- type: PrivacyPolicy
+  url: https://accenttx.com/privacy-policy/
+- type: TermsOfService
+  url: https://accenttx.com/terms-of-use/
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
